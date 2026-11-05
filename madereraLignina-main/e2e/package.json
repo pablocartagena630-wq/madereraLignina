@@ -1,0 +1,20 @@
+{
+  "name": "lignina-e2e",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas (Playwright) del sitio madereraLignina - proyecto Jira MLIG",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:bugs": "SHOW_BUGS=1 playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen http://localhost:4173",
+    "setup": "playwright install chromium firefox"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "jquery": "^3.6.0"
+  }
+}

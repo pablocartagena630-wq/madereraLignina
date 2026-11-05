@@ -1,0 +1,137 @@
+footer {
+    border-top: solid 1px rgb(73, 68, 68);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contacto_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    
+        gap:10px ;
+    }
+    .logos {
+        width: 250px;
+        height: 210px;
+        h2 {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+    
+        //=== Home/footer 1 - proveedores===
+    #fprovedores{
+        #fproveedores{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1em;
+            h2{
+                margin-top: 1.5em;
+                margin-bottom: 1em;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            
+                margin-bottom: 15px;
+
+                img{
+                    margin: 1px;
+                    width: 15%;
+                    height: auto;
+                }
+            }
+        
+        }
+    }
+        //=== Home/footer 1 - contacto===
+    #fcontacto{
+        div{
+            #divcon{
+                #divlista_con{
+                    text-align: center;
+                    #divcontacto {
+                        list-style: none;
+                        li {
+                            margin-left: -30px;
+                        }
+                    }
+                }
+            }
+            #divmapa{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #divate{
+                #divlista_ate{
+                    text-align: center;
+                    #divatencion {
+                        list-style: none;
+                        text-align: left;
+                        display: inline-block;
+                        li {
+                            margin-left: -30px;
+                            
+                            a{
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //=== Home/footer 1 - informacion===
+    #finfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    width: 500px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #divlista_red{
+        margin-left: -50px;
+        #divredes {
+            list-style: none;
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            li {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            
+                margin: 0px 10px 0px 50px;
+            }
+        }
+    }
+    div{
+        img{
+            margin-bottom: 10px;
+        }
+    }
+    #copymobile{
+        display: none;
+    }
+    }
+}
+
+

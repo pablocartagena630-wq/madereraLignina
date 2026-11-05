@@ -1,0 +1,2804 @@
+@charset "UTF-8";
+.cuerpom {
+  font-family: 'Open Sans', sans-serif !important;
+  margin: 50px;
+  margin-top: 10px;
+  border: 5px;
+  padding: 10px;
+  background-image: url("../img/tinified/MADERA4.png");
+  background-repeat: repeat; }
+  .cuerpom #contflecha {
+    position: sticky;
+    top: 50px; }
+  .cuerpom header div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .cuerpom header div div nav ul {
+      text-decoration: none;
+      color: #000;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center; }
+      .cuerpom header div div nav ul .hovergradual {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 10px 20px;
+        border: 0px solid #000;
+        border-collapse: collapse;
+        text-align: center;
+        background: linear-gradient(311deg, #703a0d 0%, rgba(255, 122, 33, 0.386992) 50%, #d27b00 100%);
+        box-shadow: inset 0 0 4px 3px #e2ac7a;
+        transition: all 1s; }
+      .cuerpom header div div nav ul .hovergradual:hover {
+        transform: scale(1.1);
+        background-color: rgba(250, 11, 11, 0.76); }
+      .cuerpom header div div nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-style: italic; }
+      .cuerpom header div div nav ul li a:hover {
+        color: black; }
+      .cuerpom header div div nav ul li div {
+        display: flex;
+        flex-direction: row; }
+        .cuerpom header div div nav ul li div input[type=text] {
+          float: right;
+          padding: 14px;
+          border: none;
+          /* margin-top: 8px;
+                                    margin-right: 16px; */
+          font-size: 0.7em;
+          text-decoration: black;
+          color: black;
+          background: linear-gradient(311deg, #703a0d 0%, rgba(255, 122, 33, 0.386992) 50%, #d27b00 100%);
+          box-shadow: inset 0 0 4px 3px #e2ac7a; }
+        .cuerpom header div div nav ul li div ::placeholder {
+          color: black;
+          opacity: 1;
+          font-size: 1.2em;
+          font-style: italic;
+          text-align: center;
+          justify-items: flex-start; }
+        .cuerpom header div div nav ul li div button {
+          background: linear-gradient(311deg, #703a0d 0%, rgba(255, 122, 33, 0.386992) 50%, #d27b00 100%);
+          box-shadow: inset 0 0 4px 3px #e2ac7a;
+          height: 2.7em;
+          width: 2.7em;
+          border: none; }
+  .cuerpom header div #barrafija {
+    margin: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.424);
+    box-shadow: inset 0 0 15px 12px rgba(241, 154, 54, 0.883), 0 0 15px 12px rgba(0, 0, 0, 0.438);
+    padding: 5px; }
+    .cuerpom header div #barrafija a {
+      transition: all 0.5s ease-in-out;
+      text-decoration: none;
+      color: #000;
+      display: flex;
+      flex-direction: row;
+      justify-content: baseline;
+      align-items: flex-start; }
+      .cuerpom header div #barrafija a #carrito {
+        transform: skewX(-30deg);
+        transition: all 0.5s ease-in-out; }
+    .cuerpom header div #barrafija #logo {
+      display: block;
+      width: 5%;
+      height: 5%;
+      padding: 5px 0 5px 0;
+      transform: skewX(30deg);
+      transition: all 0.5s ease-in-out; }
+    .cuerpom header div #barrafija #carrito:hover {
+      transform: scale(1.1); }
+    .cuerpom header div #barrafija #logo:hover {
+      transform: scale(1.1); }
+    .cuerpom header div #barrafija #registro {
+      width: auto;
+      border-radius: 60%;
+      font-weight: 500;
+      padding: 5px;
+      background: radial-gradient(rgba(252, 255, 251, 0.9) 0%, rgba(206, 179, 104, 0.4) 30%, rgba(218, 186, 81, 0.01) 70%, rgba(226, 219, 197, 0) 70%, rgba(201, 165, 132, 0.9) 100%); }
+    .cuerpom header div #barrafija #ingreso {
+      width: auto;
+      font-weight: 500;
+      border-radius: 60%;
+      padding: 5px;
+      background: radial-gradient(rgba(252, 255, 251, 0.9) 0%, rgba(206, 179, 104, 0.4) 30%, rgba(218, 186, 81, 0.01) 70%, rgba(226, 219, 197, 0) 70%, rgba(201, 165, 132, 0.9) 100%); }
+    .cuerpom header div #barrafija #registro:hover {
+      transform: scale(1.1);
+      background-color: rgba(235, 206, 206, 0.5); }
+    .cuerpom header div #barrafija #ingreso:hover {
+      transform: scale(1.1);
+      background-color: rgba(235, 206, 206, 0.5); }
+  .cuerpom header div .lignina {
+    padding: 20px 0 20px 0;
+    background-image: url("../img/imagen_principal2.jpg");
+    box-shadow: inset 0 0 4px 3px #e2ac7a; }
+    .cuerpom header div .lignina h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      animation-name: movimiento;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-duration: 5s; }
+    .cuerpom header div .lignina .ache1 {
+      color: chocolate;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 300%;
+      letter-spacing: 50px;
+      width: 100%;
+      height: auto; }
+
+/*inicio animaciones*/
+@keyframes movimiento {
+  0% {
+    font-size: 50px; }
+  50% {
+    font-size: 100px; } }
+
+/*fin animaciones*/
+main p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: large;
+  text-align: left;
+  text-transform: none;
+  line-height: 25px;
+  text-decoration: wavy;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: black; }
+
+main span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: large;
+  line-height: 25px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  color: black; }
+
+main .titulo {
+  margin: 10px 0 10px 0; }
+
+main .ache2 {
+  color: #554415;
+  font-size: 1.8em;
+  font-weight: 800; }
+
+main .goma:hover {
+  display: inline-block;
+  animation: goma 1s; }
+
+main .ache3 {
+  color: #62462c; }
+
+main .ache4 {
+  color: #464544;
+  font-size: 12px;
+  font-weight: auto;
+  text-align: left;
+  background: rgba(195, 143, 45, 0.541);
+  margin: 0 0 50px;
+  padding: 7px;
+  border-radius: 35px 35px 35px 35px; }
+
+main .alineacion {
+  text-align: justify;
+  text-decoration: none;
+  text-transform: none; }
+
+main .spanespecial {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: medium;
+  line-height: 39px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #14145c;
+  margin: 0 1vw 0 1vw; }
+
+main .parrafo1 {
+  text-align: center; }
+
+main .sobresalir:hover {
+  transform: scale(1.1); }
+
+main .ache4:hover {
+  color: chocolate;
+  font-weight: 600; }
+
+main section div a {
+  text-decoration: none; }
+
+main #seccionnosotros {
+  margin-top: 10px;
+  border: solid 5px #804000;
+  padding: 0 10px 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main #seccionnosotros div span {
+    margin-left: 1px;
+    margin-right: 1px; }
+  main #seccionnosotros div .imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 10px 8px #1f1e1e; }
+  main #seccionnosotros div .video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 8px #1f1e1e; }
+
+main #seccioncatego {
+  margin-bottom: 20px;
+  border-right: dotted 5px #804000;
+  border-left: dotted 5px #804000;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  main #seccioncatego div div {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+    main #seccioncatego div div div span {
+      margin-left: 1px;
+      margin-right: 1px; }
+
+main .contenedors2 {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  main .contenedors2 .hijos2 {
+    position: absolute;
+    transition: all 1s ease-in-out; }
+    main .contenedors2 .hijos2 .ache3 {
+      color: beige;
+      font-family: 'Open Sans', sans-serif;
+      font-style: italic;
+      margin: 0; }
+
+main .contenedors2:hover .hijos2 {
+  background-color: #62462ce5;
+  border-radius: 350px;
+  z-index: 1000; }
+
+main #seccionventa {
+  border: solid 5px #804000;
+  padding: 0 10px 0 5px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main #seccionventa div div span {
+    margin-left: 1px;
+    margin-right: 1px; }
+  main #seccionventa div table {
+    width: 85vmax;
+    border: 1px solid #c7850b;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0; }
+    main #seccionventa div table tr td {
+      width: 95vw;
+      text-align: left;
+      vertical-align: middle;
+      border: 1px solid #c7850b; }
+    main #seccionventa div table #criterios {
+      background-color: #ce8c22;
+      text-align: center;
+      font-style: italic;
+      color: #381e1e; }
+  main #seccionventa div .columna1 {
+    color: #661616;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger; }
+  main #seccionventa div .columna2 {
+    color: #661616; }
+  main #seccionventa div .columna3 {
+    color: #661616;
+    font-weight: bold;
+    text-align: center; }
+  main #seccionventa div .columna4 {
+    color: #661616; }
+  main #seccionventa div .columna5 {
+    color: #661616; }
+  main #seccionventa #tituloppal {
+    margin: 10px 4px 5px 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    main #seccionventa #tituloppal div {
+      margin: 0 10px 0 10px; }
+  main #seccionventa #divs3 {
+    margin: 0 2vw 0 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    main #seccionventa #divs3 div #bancos3 {
+      width: 900px;
+      height: auto; }
+
+main #seccionconsejos {
+  margin: 0;
+  border-right: dotted 5px #804000;
+  border-left: dotted 5px #804000;
+  padding: 0 10px 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main #seccionconsejos #divs4 {
+    margin: 0 0.5vw 0 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+
+main #seccioncomenta {
+  margin: 0;
+  border: solid 5px #804000;
+  padding: 0 10px 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main #seccioncomenta div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px 0 5px 0; }
+    main #seccioncomenta div div span {
+      margin-left: 1px;
+      margin-right: 1px; }
+  main #seccioncomenta .sombra {
+    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.438); }
+    main #seccioncomenta .sombra img {
+      width: 100%;
+      height: auto; }
+
+@keyframes goma {
+  0% {
+    transform: scale3d(1, 1, 1); }
+  35% {
+    transform: scale3d(1.25, 0.75, 1); }
+  45% {
+    transform: scale3d(0.75, 1, 1); }
+  60% {
+    transform: scale3d(1.2, 0.8, 1); }
+  75% {
+    transform: scale3d(1.05, 0.95, 1); }
+  100% {
+    transform: scale3d(1, 1, 1); } }
+
+/*Títulos y parrafos en todas las secciones*/
+.ache2 {
+  color: #554415; }
+
+.ache3 {
+  color: #62462c; }
+
+.ache4 {
+  color: #464544;
+  font-size: 12px;
+  font-weight: auto;
+  text-align: left;
+  background: rgba(195, 143, 45, 0.541);
+  margin: 0 0 50px;
+  padding: 7px;
+  border-radius: 35px 35px 35px 35px; }
+
+p {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: medium;
+  text-align: left;
+  text-transform: none;
+  line-height: 25px;
+  text-decoration: wavy;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: black; }
+
+span {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: medium;
+  line-height: 25px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  color: black; }
+
+.alineacion {
+  text-align: justify;
+  text-decoration: none;
+  text-transform: none; }
+
+.spanespecial {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: medium;
+  line-height: 39px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #14145c;
+  margin: 0 1vw 0 1vw; }
+
+.volver {
+  width: 15%;
+  padding: 10px 20px;
+  border: 0px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+  background: linear-gradient(311deg, #703a0d 0%, rgba(255, 122, 33, 0.386992) 50%, #d27b00 100%);
+  box-shadow: inset 0 0 4px 3px #e2ac7a;
+  transition: all 1s; }
+  .volver a {
+    text-decoration: none;
+    color: black; }
+
+.volver:hover {
+  transform: scale(1.1);
+  background-color: rgba(235, 206, 206, 0.5); }
+
+main div div div div .contimagen {
+  position: relative;
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+main div div div div div .sombra {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0px 0px 12px 8px #e2ac7a;
+  top: 0;
+  left: 0; }
+
+main div div div div div .tamaño2 {
+  width: 600px;
+  height: auto;
+  box-shadow: 0px 0px 15px 12px rgba(226, 172, 122, 0.794); }
+
+main div div div div div div .tamaño {
+  width: 290px !important;
+  height: 175px !important;
+  border: solid 3px rgba(255, 255, 255, 0.794) !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#mains2 {
+  /* border: solid 3px black; */
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "cats2 cats2 cats2 cats2 cats2" "d1 d11 d12 d13 d14" "d2 d21 d22 d23 d24" "d3 d31 d32 d33 d34" "d4 d41 d42 d43 d44" "d5 d51 d52 d53 d54" "d6 d61 d62 d63 d64" "d7 d71 d72 d73 d74";
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+  width: auto; }
+  #mains2 div #contentrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0.8);
+    border-radius: 10%;
+    margin: 0px 15px 15px 0px;
+    width: 200px;
+    height: 200px;
+    position: relative; }
+    #mains2 div #contentrada div {
+      text-align: center; }
+      #mains2 div #contentrada div img {
+        min-width: 150px/2;
+        min-height: 200px/2;
+        max-width: 200px/2;
+        max-height: 250px/2;
+        width: 50%;
+        margin-bottom: 10px; }
+  #mains2 div a {
+    text-decoration: none; }
+  #mains2 div .contenedortitulo {
+    width: 200px;
+    height: 130px;
+    background: url(../img/seccion_2/cartel3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    #mains2 div .contenedortitulo h3 {
+      margin-left: 12px;
+      margin-top: 5px;
+      text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5), 0px -1px 1px rgba(0, 0, 0, 0.3); }
+  #mains2 #titulos2 {
+    align-self: start;
+    justify-self: left; }
+    #mains2 #titulos2 #cats2 {
+      grid-area: cats2;
+      background-image: url(../img/seccion_22/cartel.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: cover;
+      padding: 20px 0 30px 0; }
+
+#d1 {
+  grid-area: d1;
+  justify-self: left; }
+
+#d2 {
+  grid-area: d2;
+  justify-self: left; }
+
+#d3 {
+  grid-area: d3;
+  justify-self: left; }
+
+#d4 {
+  grid-area: d4;
+  justify-self: left; }
+
+#d5 {
+  grid-area: d5;
+  justify-self: left; }
+
+#d6 {
+  grid-area: d6;
+  justify-self: left; }
+
+#d7 {
+  grid-area: d7;
+  justify-self: left; }
+
+.letraitalic {
+  font-family: 'Lobster', cursive;
+  /* transform: scale(1.5); */ }
+
+#d11 {
+  grid-area: d11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.botonbajo {
+  position: absolute;
+  bottom: 5px; }
+
+.modal-body div div {
+  text-align: center; }
+
+.botoncolor {
+  background-color: #b36c1b;
+  border-color: wheat; }
+
+#d12 {
+  grid-area: d12; }
+
+#d13 {
+  grid-area: d13; }
+
+#d14 {
+  grid-area: d14; }
+
+#d21 {
+  grid-area: d21; }
+
+#d22 {
+  grid-area: d22; }
+
+#d23 {
+  grid-area: d23; }
+
+#d24 {
+  grid-area: d24; }
+
+#d31 {
+  grid-area: d31; }
+
+#d32 {
+  grid-area: d32; }
+
+#d33 {
+  grid-area: d33; }
+
+#d34 {
+  grid-area: d34; }
+
+#d41 {
+  grid-area: d41; }
+
+#d42 {
+  grid-area: d42; }
+
+#d43 {
+  grid-area: d43; }
+
+#d44 {
+  grid-area: d44; }
+
+#d51 {
+  grid-area: d51; }
+
+#d52 {
+  grid-area: d52; }
+
+#d53 {
+  grid-area: d53; }
+
+#d54 {
+  grid-area: d54; }
+
+#d61 {
+  grid-area: d61; }
+
+#d62 {
+  grid-area: d62; }
+
+#d63 {
+  grid-area: d63; }
+
+#d64 {
+  grid-area: d64; }
+
+#d71 {
+  grid-area: d71; }
+
+#d72 {
+  grid-area: d72; }
+
+#d73 {
+  grid-area: d73; }
+
+#d74 {
+  grid-area: d74; }
+
+header div div img {
+  border-radius: 60px; }
+
+h2 {
+  color: #201e1e;
+  font-size: initial/2; }
+
+h3 {
+  color: #201e1e;
+  font-size: initial/3;
+  font-style: italic; }
+
+.fondo-azulg, .fonto-ventasantiguas {
+  background-color: rgba(126, 106, 218, 0.671);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 15px 15px; }
+
+.fonto-ventasantiguas {
+  background-color: rgba(0, 0, 0, 0.424);
+  padding: 8px 8px; }
+
+.fondo-amarillog, .fonto-ventasantiguas {
+  background-color: rgba(236, 182, 83, 0.671);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 15px 15px; }
+
+.fonto-ventasantiguas {
+  background-color: rgba(0, 0, 0, 0.424);
+  padding: 8px 8px; }
+
+.fondo-rojog, .fonto-ventasantiguas {
+  background-color: rgba(182, 67, 67, 0.705);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 15px 15px; }
+
+.fonto-ventasantiguas {
+  background-color: rgba(0, 0, 0, 0.424);
+  padding: 8px 8px; }
+
+.fondo-blancog, .fonto-ventasantiguas {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 15px 15px; }
+
+.fonto-ventasantiguas {
+  background-color: rgba(0, 0, 0, 0.424);
+  padding: 8px 8px; }
+
+.lados-base {
+  height: auto !important;
+  width: 400px !important; }
+
+.lados-pples {
+  height: auto !important;
+  width: 500px !important; }
+
+#mains3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #mains3 div {
+    margin-bottom: 20px; }
+    #mains3 div ~ div {
+      margin-bottom: 10px; }
+    #mains3 div #titulos3 {
+      width: 100%; }
+    #mains3 div #contppal {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(122, 86, 17, 0.781);
+      border-radius: 10px;
+      padding: 3px 12px 0 12px; }
+      #mains3 div #contppal #textos3 {
+        margin-bottom: 0; }
+    #mains3 div #imgs3 {
+      margin-bottom: 5px; }
+    #mains3 div div table {
+      border: solid 1px #c7850b; }
+      #mains3 div div table tr .columna1 {
+        text-align: center; }
+      #mains3 div div table tr td {
+        border: solid 1px #c7850b;
+        color: #201e1e !important;
+        margin: 0.5em 1em 0.5em 0 !important;
+        color: #201e1e !important; }
+        #mains3 div div table tr td ul {
+          margin: 0.5em 1em 0.5em 0 !important; }
+          #mains3 div div table tr td ul li {
+            color: #201e1e; }
+        #mains3 div div table tr td ol {
+          margin: 0.5em 1em 0.5em 0 !important; }
+          #mains3 div div table tr td ol li {
+            color: #201e1e; }
+      #mains3 div div table tr th {
+        text-align: center;
+        color: #201e1e; }
+    #mains3 div #linkcomprar a {
+      text-decoration: none; }
+  #mains3 #ventasemana #contppal h3 {
+    color: black; }
+  #mains3 #ventasantiguass3 #contventas {
+    background-color: rgba(255, 238, 205, 0.781);
+    border-radius: 10px;
+    padding: 1px 12px 0 12px; }
+    #mains3 #ventasantiguass3 #contventas > div {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border-bottom: solid 1px #585754;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #mains3 #ventasantiguass3 #contventas > div div {
+        margin-bottom: 5px; }
+    #mains3 #ventasantiguass3 #contventas #ventaD {
+      border-bottom: none; }
+  #mains3 #ventasantiguass3 #tituloantiguos3 {
+    padding-top: 20px;
+    text-align: left; }
+  #mains3 p {
+    font-weight: lighter; }
+  #mains3 .imgs3 {
+    width: 300px;
+    height: auto; }
+
+#mains4 div #consejos div {
+  margin: 0px 0 10px 0; }
+
+#mains4 div #consejos #tyt {
+  padding: 0 10px 0 10px; }
+  #mains4 div #consejos #tyt div p {
+    text-align: justify; }
+
+#mains4 div #titulo h2 {
+  font-weight: bold;
+  color: #412513; }
+
+#mains4 div #intro {
+  border-bottom: solid;
+  border-width: 1em;
+  border-color: #573f1a; }
+  #mains4 div #intro p {
+    font-size: 110%;
+    color: #412513; }
+
+#mains4 .consej-basic {
+  border-bottom: solid;
+  border-width: 1em;
+  border-color: #573f1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  #mains4 .consej-basic div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #mains4 .consej-basic div img {
+      width: 400px;
+      height: auto; }
+    #mains4 .consej-basic div div {
+      margin-left: 10px;
+      margin-right: 10px; }
+      #mains4 .consej-basic div div h5 {
+        color: #412513;
+        font-size: 2em;
+        width: auto;
+        font-weight: 500; }
+      #mains4 .consej-basic div div p {
+        color: #412513;
+        width: auto;
+        font-weight: 500; }
+
+main {
+  margin-bottom: 2em; }
+
+footer {
+  border-top: solid 1px #494444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  footer .contacto_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px; }
+  footer .logos {
+    width: 250px;
+    height: 210px; }
+    footer .logos h2 {
+      font-size: 1.2rem;
+      text-align: center; }
+  footer #fprovedores #fproveedores {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em; }
+    footer #fprovedores #fproveedores h2 {
+      margin-top: 1.5em;
+      margin-bottom: 1em; }
+    footer #fprovedores #fproveedores div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 15px; }
+      footer #fprovedores #fproveedores div img {
+        margin: 1px;
+        width: 15%;
+        height: auto; }
+  footer #fcontacto div #divcon #divlista_con {
+    text-align: center; }
+    footer #fcontacto div #divcon #divlista_con #divcontacto {
+      list-style: none; }
+      footer #fcontacto div #divcon #divlista_con #divcontacto li {
+        margin-left: -30px; }
+  footer #fcontacto div #divmapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  footer #fcontacto div #divate #divlista_ate {
+    text-align: center; }
+    footer #fcontacto div #divate #divlista_ate #divatencion {
+      list-style: none;
+      text-align: left;
+      display: inline-block; }
+      footer #fcontacto div #divate #divlista_ate #divatencion li {
+        margin-left: -30px; }
+        footer #fcontacto div #divate #divlista_ate #divatencion li a {
+          text-decoration: none;
+          color: black; }
+  footer #finfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 500px; }
+    footer #finfo div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    footer #finfo #divlista_red {
+      margin-left: -50px; }
+      footer #finfo #divlista_red #divredes {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center; }
+        footer #finfo #divlista_red #divredes li {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin: 0px 10px 0px 50px; }
+    footer #finfo div img {
+      margin-bottom: 10px; }
+    footer #finfo #copymobile {
+      display: none; }
+
+@media only screen and (max-width: 480px) {
+  #cuerpoindex header {
+    font-size: 60%; }
+    #cuerpoindex header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpoindex header #barrafija a {
+        transition: none; }
+        #cuerpoindex header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpoindex header #barrafija img {
+        transition: none; }
+      #cuerpoindex header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpoindex header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpoindex header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpoindex header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpoindex header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpoindex header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpoindex header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpoindex header #navbarra nav ul #come {
+        grid-area: come; }
+    #cuerpoindex header #lignina {
+      align-items: center;
+      margin: 0px;
+      padding: 0px; }
+    #cuerpoindex header .lignina {
+      background: none;
+      box-shadow: none; }
+      #cuerpoindex header .lignina h1 {
+        animation: none;
+        font-size: 400%;
+        letter-spacing: 10px;
+        width: 100%; }
+  #cuerpoindex main section {
+    font-size: 75%; }
+    #cuerpoindex main section div .imagen {
+      width: 90%;
+      height: auto;
+      margin-bottom: 5px; }
+  #cuerpoindex main #seccionnosotros img {
+    display: none; }
+  #cuerpoindex main #seccioncatego {
+    margin-bottom: 0px; }
+    #cuerpoindex main #seccioncatego div div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccioncatego div div .titulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: center; }
+      #cuerpoindex main #seccioncatego div div div a div img {
+        display: none; }
+  #cuerpoindex main #seccionventa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #cuerpoindex main #seccionventa div div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionventa div div img {
+        width: 10em;
+        height: auto;
+        margin-bottom: 2px; }
+    #cuerpoindex main #seccionventa div table {
+      display: none; }
+    #cuerpoindex main #seccionventa #divs3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionventa #divs3 div span {
+        line-height: 25px;
+        font-weight: 500;
+        word-spacing: 5px; }
+    #cuerpoindex main #seccionventa #tituloppal {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #cuerpoindex main #seccionventa #tituloppal div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+  #cuerpoindex main .ache2 {
+    text-align: center; }
+  #cuerpoindex main .alineacion {
+    text-align: center;
+    text-decoration: none;
+    text-transform: none; }
+  #cuerpoindex main #seccionconsejos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    #cuerpoindex main #seccionconsejos #divs4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionconsejos #divs4 div span {
+        line-height: 25px;
+        word-spacing: 5px; }
+    #cuerpoindex main #seccionconsejos div audio {
+      display: none; }
+    #cuerpoindex main #seccionconsejos div div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionconsejos div div img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2px; }
+  #cuerpoindex main #seccioncomenta div img {
+    display: none; }
+  #cuerpoindex footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpoindex footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpoindex footer #fproveedores div img {
+        width: 50%; }
+    #cuerpoindex footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpoindex footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpoindex footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpoindex footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpoindex footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpoindex footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpoindex footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpoindex footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpoindex footer #finfo #copydesk {
+        display: none; }
+      #cuerpoindex footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpoindex footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos1 header {
+    font-size: 60%; }
+    #cuerpos1 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos1 header #barrafija a {
+        transition: none; }
+        #cuerpos1 header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpos1 header #barrafija img {
+        transition: none; }
+      #cuerpos1 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos1 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos1 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos1 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos1 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos1 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos1 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos1 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos1 main div div {
+    text-align: center; }
+    #cuerpos1 main div div p {
+      text-align: justify; }
+  #cuerpos1 main div .container div div #imgtroncos {
+    display: none; }
+  #cuerpos1 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos1 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos1 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos1 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos1 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos1 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos1 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos1 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos1 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos1 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos1 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos1 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos1 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos1 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos1 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos2 header {
+    font-size: 60%; }
+    #cuerpos2 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos2 header #barrafija a {
+        transition: none; }
+        #cuerpos2 header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpos2 header #barrafija img {
+        transition: none; }
+      #cuerpos2 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos2 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos2 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos2 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos2 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos2 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos2 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos2 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos2 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none; }
+    #cuerpos2 main div {
+      margin: 0 0 10px 0; }
+      #cuerpos2 main div #contentrada {
+        margin: 0; }
+      #cuerpos2 main div #d13Modal img, #cuerpos2 main div #dModal img {
+        width: 90%; }
+    #cuerpos2 main #titulos2 {
+      width: 100%; }
+      #cuerpos2 main #titulos2 h2 {
+        text-align: center; }
+  #cuerpos2 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos2 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos2 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos2 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos2 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos2 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos2 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos2 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos2 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos2 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos2 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos2 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos2 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos2 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos2 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos3 header {
+    font-size: 60%; }
+    #cuerpos3 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos3 header #barrafija a {
+        transition: none; }
+        #cuerpos3 header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpos3 header #barrafija img {
+        transition: none; }
+      #cuerpos3 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos3 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos3 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos3 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos3 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos3 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos3 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos3 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos3 main div {
+    width: 100%; }
+    #cuerpos3 main div div div p {
+      text-align: justify; }
+    #cuerpos3 main div div div div table {
+      width: 100%;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #cuerpos3 main div div div div table tr:first-child {
+        display: none; }
+      #cuerpos3 main div div div div table tr td:first-child {
+        background: #f0f0f0;
+        font-weight: bold;
+        font-size: 1em; }
+      #cuerpos3 main div div div div table tr td {
+        display: block;
+        text-align: center;
+        margin: 0 !important; }
+      #cuerpos3 main div div div div table tr #criterios {
+        display: none; }
+    #cuerpos3 main div div #imgs3, #cuerpos3 main div div #imgsemA, #cuerpos3 main div div #imgsemB, #cuerpos3 main div div #imgsemC, #cuerpos3 main div div #imgsemD {
+      max-width: 100%; }
+      #cuerpos3 main div div #imgs3 img, #cuerpos3 main div div #imgsemA img, #cuerpos3 main div div #imgsemB img, #cuerpos3 main div div #imgsemC img, #cuerpos3 main div div #imgsemD img {
+        width: 100% !important; }
+    #cuerpos3 main div #linkcomprar {
+      max-width: 40%; }
+      #cuerpos3 main div #linkcomprar a h4 {
+        text-align: center; }
+  #cuerpos3 main #titulos3, #cuerpos3 main #tituloantiguos3 {
+    width: 100%; }
+    #cuerpos3 main #titulos3 h2, #cuerpos3 main #tituloantiguos3 h2 {
+      text-align: center; }
+  #cuerpos3 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos3 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos3 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos3 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos3 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos3 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos3 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos3 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos3 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos3 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos3 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos3 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos3 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos3 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos3 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos4 header {
+    font-size: 60%; }
+    #cuerpos4 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos4 header #barrafija a {
+        transition: none; }
+        #cuerpos4 header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpos4 header #barrafija img {
+        transition: none; }
+      #cuerpos4 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos4 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos4 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos4 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos4 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos4 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos4 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos4 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos4 main div {
+    width: 100%; }
+    #cuerpos4 main div div p {
+      text-align: justify; }
+    #cuerpos4 main div div div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #cuerpos4 main div div div div img {
+        width: 100%;
+        margin-top: 5px; }
+    #cuerpos4 main div #linkcomprar {
+      max-width: 40%; }
+      #cuerpos4 main div #linkcomprar a h4 {
+        text-align: center; }
+  #cuerpos4 main #titulos4 {
+    width: 100%; }
+    #cuerpos4 main #titulos4 h2 {
+      text-align: center; }
+  #cuerpos4 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos4 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos4 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos4 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos4 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos4 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos4 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos4 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos4 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos4 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos4 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos4 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos4 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos4 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos4 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos5 header {
+    font-size: 60%; }
+    #cuerpos5 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos5 header #barrafija a {
+        transition: none; }
+        #cuerpos5 header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpos5 header #barrafija img {
+        transition: none; }
+      #cuerpos5 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos5 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos5 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos5 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos5 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos5 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos5 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos5 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos5 main div div {
+    text-align: center; }
+    #cuerpos5 main div div p {
+      text-align: justify; }
+  #cuerpos5 main div .container div div #imgtroncos {
+    display: none; }
+  #cuerpos5 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos5 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos5 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos5 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos5 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos5 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos5 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos5 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos5 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos5 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos5 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos5 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos5 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos5 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos5 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpoingreso header {
+    font-size: 60%; }
+    #cuerpoingreso header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpoingreso header #barrafija a {
+        transition: none; }
+        #cuerpoingreso header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpoingreso header #barrafija img {
+        transition: none; }
+      #cuerpoingreso header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpoingreso header #volver {
+      width: 100%;
+      margin: 10px 0 30px 0; }
+  #cuerporegistro header {
+    font-size: 60%; }
+    #cuerporegistro header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerporegistro header #barrafija a {
+        transition: none; }
+        #cuerporegistro header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerporegistro header #barrafija img {
+        transition: none; }
+      #cuerporegistro header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerporegistro header .volver {
+      width: 100%;
+      margin: 10px 0 30px 0; }
+  #cuerpocarro header {
+    font-size: 60%; }
+    #cuerpocarro header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpocarro header #barrafija a {
+        transition: none; }
+        #cuerpocarro header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpocarro header #barrafija img {
+        transition: none; }
+      #cuerpocarro header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpocarro header #volver {
+      width: 100%;
+      padding: 10px 0 10px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; } }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #cuerpoindex header {
+    font-size: 90%; }
+    #cuerpoindex header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpoindex header #barrafija a {
+        transition: none; }
+        #cuerpoindex header #barrafija a #carrito {
+          width: 90%;
+          height: auto; }
+      #cuerpoindex header #barrafija img {
+        transition: none; }
+      #cuerpoindex header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpoindex header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpoindex header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpoindex header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpoindex header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpoindex header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpoindex header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpoindex header #navbarra nav ul #come {
+        grid-area: come; }
+    #cuerpoindex header #lignina {
+      align-items: center;
+      margin: 0px;
+      padding: 0px; }
+    #cuerpoindex header .lignina {
+      background: none;
+      box-shadow: none; }
+      #cuerpoindex header .lignina h1 {
+        animation: none;
+        font-size: 400%;
+        letter-spacing: 10px;
+        width: 100%; }
+  #cuerpoindex main section {
+    font-size: 75%; }
+    #cuerpoindex main section div .imagen {
+      width: 90%;
+      height: auto;
+      margin-bottom: 5px; }
+  #cuerpoindex main #seccioncatego {
+    margin-bottom: 0px; }
+    #cuerpoindex main #seccioncatego div div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccioncatego div div .titulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        align-items: center; }
+      #cuerpoindex main #seccioncatego div div div a div img {
+        display: none; }
+  #cuerpoindex main #seccionventa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #cuerpoindex main #seccionventa div div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionventa div div img {
+        width: 10em;
+        height: auto;
+        transform: translateX(20px); }
+    #cuerpoindex main #seccionventa div table {
+      display: none; }
+    #cuerpoindex main #seccionventa #divs3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionventa #divs3 div span {
+        line-height: 25px;
+        font-weight: 500;
+        word-spacing: 5px; }
+    #cuerpoindex main #seccionventa #tituloppal {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      #cuerpoindex main #seccionventa #tituloppal div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+  #cuerpoindex main .ache2 {
+    text-align: center; }
+  #cuerpoindex main .alineacion {
+    text-align: center;
+    text-decoration: none;
+    text-transform: none; }
+  #cuerpoindex main #seccionconsejos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    #cuerpoindex main #seccionconsejos #divs4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionconsejos #divs4 div span {
+        line-height: 25px;
+        word-spacing: 5px; }
+    #cuerpoindex main #seccionconsejos div audio {
+      display: none; }
+    #cuerpoindex main #seccionconsejos div div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex main #seccionconsejos div div img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2px; }
+  #cuerpoindex main #seccioncomenta div img {
+    display: none; }
+  #cuerpoindex footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpoindex footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpoindex footer #fproveedores div img {
+        width: 50%; }
+    #cuerpoindex footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpoindex footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpoindex footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpoindex footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpoindex footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpoindex footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpoindex footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpoindex footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpoindex footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpoindex footer #finfo #copydesk {
+        display: none; }
+      #cuerpoindex footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpoindex footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos1 header {
+    font-size: 90%; }
+    #cuerpos1 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos1 header #barrafija a {
+        transition: none; }
+        #cuerpos1 header #barrafija a #carrito {
+          width: 50%;
+          height: auto;
+          transform: translateX(19.5px); }
+      #cuerpos1 header #barrafija img {
+        transition: none; }
+      #cuerpos1 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos1 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos1 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos1 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos1 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos1 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos1 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos1 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos1 main div div {
+    text-align: center; }
+    #cuerpos1 main div div p {
+      text-align: justify; }
+  #cuerpos1 main div .container div div #imgtroncos {
+    display: none; }
+  #cuerpos1 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos1 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos1 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos1 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos1 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos1 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos1 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos1 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos1 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos1 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos1 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos1 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos1 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos1 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos1 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos2 header {
+    font-size: 90%; }
+    #cuerpos2 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos2 header #barrafija a {
+        transition: none; }
+        #cuerpos2 header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpos2 header #barrafija img {
+        transition: none; }
+      #cuerpos2 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos2 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos2 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos2 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos2 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos2 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos2 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos2 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos2 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none; }
+    #cuerpos2 main div {
+      margin: 0 0 10px 0; }
+      #cuerpos2 main div #contentrada {
+        margin: 0; }
+    #cuerpos2 main #titulos2 {
+      width: 100%; }
+      #cuerpos2 main #titulos2 h2 {
+        text-align: center; }
+  #cuerpos2 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos2 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos2 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos2 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos2 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos2 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos2 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos2 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos2 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos2 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos2 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos2 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos2 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos2 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos2 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos3 header {
+    font-size: 90%; }
+    #cuerpos3 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos3 header #barrafija a {
+        transition: none; }
+        #cuerpos3 header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpos3 header #barrafija img {
+        transition: none; }
+      #cuerpos3 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos3 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos3 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos3 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos3 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos3 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos3 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos3 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos3 main div {
+    width: 100%; }
+    #cuerpos3 main div div div p {
+      text-align: justify; }
+    #cuerpos3 main div div div div table {
+      width: 100%;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #cuerpos3 main div div div div table tr:first-child {
+        display: none; }
+      #cuerpos3 main div div div div table tr td:first-child {
+        background: #f0f0f0;
+        font-weight: bold;
+        font-size: 1em; }
+      #cuerpos3 main div div div div table tr td {
+        display: block;
+        text-align: center;
+        margin: 0 !important; }
+      #cuerpos3 main div div div div table tr #criterios {
+        display: none; }
+    #cuerpos3 main div div #imgs3, #cuerpos3 main div div #imgsemA, #cuerpos3 main div div #imgsemB, #cuerpos3 main div div #imgsemC, #cuerpos3 main div div #imgsemD {
+      max-width: 100%; }
+      #cuerpos3 main div div #imgs3 img, #cuerpos3 main div div #imgsemA img, #cuerpos3 main div div #imgsemB img, #cuerpos3 main div div #imgsemC img, #cuerpos3 main div div #imgsemD img {
+        width: 100% !important; }
+    #cuerpos3 main div #linkcomprar {
+      max-width: 40%; }
+      #cuerpos3 main div #linkcomprar a h4 {
+        text-align: center; }
+  #cuerpos3 main #titulos3, #cuerpos3 main #tituloantiguos3 {
+    width: 100%; }
+    #cuerpos3 main #titulos3 h2, #cuerpos3 main #tituloantiguos3 h2 {
+      text-align: center; }
+  #cuerpos3 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos3 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos3 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos3 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos3 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos3 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos3 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos3 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos3 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos3 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos3 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos3 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos3 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos3 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos3 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos4 header {
+    font-size: 90%; }
+    #cuerpos4 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos4 header #barrafija a {
+        transition: none; }
+        #cuerpos4 header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpos4 header #barrafija img {
+        transition: none; }
+      #cuerpos4 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos4 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos4 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos4 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos4 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos4 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos4 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos4 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos4 main div {
+    width: 100%; }
+    #cuerpos4 main div div p {
+      text-align: justify; }
+    #cuerpos4 main div div div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #cuerpos4 main div div div .imgcons1, #cuerpos4 main div div div .imgcons2, #cuerpos4 main div div div .imgcons3, #cuerpos4 main div div div .imgcons4 {
+        display: none; }
+      #cuerpos4 main div div div #tyt {
+        width: 100%; }
+    #cuerpos4 main div #linkcomprar {
+      max-width: 40%; }
+      #cuerpos4 main div #linkcomprar a h4 {
+        text-align: center; }
+  #cuerpos4 main #titulos4 {
+    width: 100%; }
+    #cuerpos4 main #titulos4 h2 {
+      text-align: center; }
+  #cuerpos4 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos4 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos4 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos4 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos4 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos4 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos4 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos4 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos4 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos4 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos4 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos4 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos4 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos4 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos4 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpos5 header {
+    font-size: 90%; }
+    #cuerpos5 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos5 header #barrafija a {
+        transition: none; }
+        #cuerpos5 header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpos5 header #barrafija img {
+        transition: none; }
+      #cuerpos5 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos5 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos5 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos5 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos5 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos5 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos5 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos5 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos5 main div div {
+    text-align: center; }
+    #cuerpos5 main div div p {
+      text-align: justify; }
+  #cuerpos5 main div .container div div #imgtroncos {
+    display: none; }
+  #cuerpos5 footer {
+    display: flex;
+    flex-direction: column; }
+    #cuerpos5 footer #fproveedores div {
+      width: 80%;
+      display: flex;
+      flex-direction: column; }
+      #cuerpos5 footer #fproveedores div img {
+        width: 50%; }
+    #cuerpos5 footer #fcontacto div {
+      font-size: 90%;
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      #cuerpos5 footer #fcontacto div div div ul {
+        text-align: center;
+        margin: 0px 3px 0px 3px; }
+      #cuerpos5 footer #fcontacto div #divmapa {
+        transform: translateX(0px); }
+        #cuerpos5 footer #fcontacto div #divmapa iframe {
+          width: 70%; }
+      #cuerpos5 footer #fcontacto div #divate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; }
+        #cuerpos5 footer #fcontacto div #divate div #divatencion {
+          text-align: center; }
+      #cuerpos5 footer #fcontacto div #divnewsletter {
+        transform: translateX(0px); }
+    #cuerpos5 footer #finfo {
+      width: 100%;
+      height: auto; }
+      #cuerpos5 footer #finfo div #divredes {
+        display: flex;
+        flex-direction: row;
+        transform: translate(-10px, 10px); }
+      #cuerpos5 footer #finfo #copydesk {
+        display: none; }
+      #cuerpos5 footer #finfo #copymobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+    #cuerpos5 footer .ache4 {
+      margin: 2px 0 2px 0; }
+  #cuerpoingreso header {
+    font-size: 90%; }
+    #cuerpoingreso header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpoingreso header #barrafija a {
+        transition: none; }
+        #cuerpoingreso header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpoingreso header #barrafija img {
+        transition: none; }
+      #cuerpoingreso header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpoingreso header #volver {
+      width: 100%;
+      margin: 10px 0 30px 0; }
+  #cuerporegistro header {
+    font-size: 90%; }
+    #cuerporegistro header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerporegistro header #barrafija a {
+        transition: none; }
+        #cuerporegistro header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerporegistro header #barrafija img {
+        transition: none; }
+      #cuerporegistro header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerporegistro header .volver {
+      width: 100%;
+      margin: 10px 0 30px 0; }
+  #cuerpocarro header {
+    font-size: 90%; }
+    #cuerpocarro header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpocarro header #barrafija a {
+        transition: none; }
+        #cuerpocarro header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpocarro header #barrafija img {
+        transition: none; }
+      #cuerpocarro header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpocarro header #volver {
+      width: 100%;
+      padding: 10px 0 10px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  header {
+    font-size: 100%; }
+    header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      header #barrafija a {
+        transition: none; }
+        header #barrafija a #carrito {
+          width: 100%;
+          height: auto; }
+      header #barrafija img {
+        transition: none; }
+      header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      header #navbarra nav ul #nos {
+        grid-area: nos; }
+      header #navbarra nav ul #cat {
+        grid-area: cat; }
+      header #navbarra nav ul #ven {
+        grid-area: ven; }
+      header #navbarra nav ul #con {
+        grid-area: con; }
+      header #navbarra nav ul #come {
+        grid-area: come; }
+    header #lignina {
+      align-items: center;
+      margin: 0px;
+      padding: 0px; }
+    header .lignina {
+      background: none;
+      box-shadow: none; }
+      header .lignina h1 {
+        animation: none;
+        font-size: 400%;
+        letter-spacing: 10px;
+        width: 100%; }
+  #cuerpoindex main #seccionventa div table {
+    display: none; }
+  #cuerpos2 header {
+    font-size: 90%; }
+    #cuerpos2 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos2 header #barrafija a {
+        transition: none; }
+        #cuerpos2 header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpos2 header #barrafija img {
+        transition: none; }
+      #cuerpos2 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos2 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos2 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos2 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos2 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos2 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos2 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos2 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos2 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none; }
+    #cuerpos2 main div {
+      margin: 0 0 10px 0; }
+      #cuerpos2 main div #contentrada {
+        margin: 0; }
+    #cuerpos2 main #titulos2 {
+      width: 100%; }
+      #cuerpos2 main #titulos2 h2 {
+        text-align: center; }
+  #cuerpos3 header {
+    font-size: 90%; }
+    #cuerpos3 header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      #cuerpos3 header #barrafija a {
+        transition: none; }
+        #cuerpos3 header #barrafija a #carrito {
+          width: 80%;
+          height: auto; }
+      #cuerpos3 header #barrafija img {
+        transition: none; }
+      #cuerpos3 header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto; }
+    #cuerpos3 header #navbarra nav ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "nos" "cat" "ven" "con" "come";
+      justify-items: center;
+      align-items: center;
+      margin-top: 10px;
+      transform: translateX(-20px); }
+      #cuerpos3 header #navbarra nav ul li div button {
+        height: 37px;
+        width: auto; }
+      #cuerpos3 header #navbarra nav ul #nos {
+        grid-area: nos; }
+      #cuerpos3 header #navbarra nav ul #cat {
+        grid-area: cat; }
+      #cuerpos3 header #navbarra nav ul #ven {
+        grid-area: ven; }
+      #cuerpos3 header #navbarra nav ul #con {
+        grid-area: con; }
+      #cuerpos3 header #navbarra nav ul #come {
+        grid-area: come; }
+  #cuerpos3 main div {
+    width: 100%; }
+    #cuerpos3 main div div div p {
+      text-align: justify; }
+    #cuerpos3 main div div div div table {
+      width: 100%;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #cuerpos3 main div div div div table tr:first-child {
+        display: none; }
+      #cuerpos3 main div div div div table tr td:first-child {
+        background: #f0f0f0;
+        font-weight: bold;
+        font-size: 1em; }
+      #cuerpos3 main div div div div table tr td {
+        display: block;
+        text-align: center;
+        margin: 0 !important; }
+      #cuerpos3 main div div div div table tr #criterios {
+        display: none; }
+    #cuerpos3 main div div #imgs3, #cuerpos3 main div div #imgsemA, #cuerpos3 main div div #imgsemB, #cuerpos3 main div div #imgsemC, #cuerpos3 main div div #imgsemD {
+      max-width: 60%; }
+      #cuerpos3 main div div #imgs3 img, #cuerpos3 main div div #imgsemA img, #cuerpos3 main div div #imgsemB img, #cuerpos3 main div div #imgsemC img, #cuerpos3 main div div #imgsemD img {
+        width: 100% !important; }
+    #cuerpos3 main div #linkcomprar {
+      max-width: 40%; }
+      #cuerpos3 main div #linkcomprar a h4 {
+        text-align: center; }
+  #cuerpos3 main #titulos3, #cuerpos3 main #tituloantiguos3 {
+    width: 100%; }
+    #cuerpos3 main #titulos3 h2, #cuerpos3 main #tituloantiguos3 h2 {
+      text-align: center; } }
+
+@media only screen and (min-width: 2560px) {
+  header {
+    font-size: 150%; }
+    header #barrafija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      header #barrafija a {
+        transition: none; }
+        header #barrafija a #carrito {
+          transform: none !important;
+          width: 150%;
+          height: auto; }
+      header #barrafija img {
+        transition: none; }
+      header #barrafija #logo {
+        display: block;
+        width: 10%;
+        height: auto;
+        transform: none !important; }
+    header #lignina {
+      align-items: center;
+      margin: 0px;
+      padding: 0px; }
+    header .lignina {
+      background: none;
+      box-shadow: none; }
+      header .lignina h1 {
+        animation: none;
+        font-size: 400%;
+        letter-spacing: 10px;
+        width: 100%; }
+  main {
+    font-size: 160%; }
+    main p {
+      font-size: 110%;
+      line-height: 60px; }
+    main span {
+      font-size: 180%;
+      line-height: 60px; } }
