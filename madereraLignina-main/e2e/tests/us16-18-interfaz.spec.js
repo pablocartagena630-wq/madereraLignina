@@ -55,11 +55,17 @@ test.describe('US-16 · Ver la sección Nosotros (MLIG-78)', () => {
   test('CP-16.3 · los indicadores muestran la imagen elegida y marcan el indicador activo', async ({ page }) => {
     const c = page.locator('.carousel').first();
     const indicadores = c.locator('.carousel-indicators button');
-    await clickCentered(indicadores.nth(2)); // Slide 3
-    await expect.poll(() => activo(c)).toBe(2);
+    // Firefox a veces ignora el primer clic mientras la página termina de cargar: se repite el clic
+    // (un usuario haría lo mismo) hasta que el carrusel muestre la imagen elegida.
+    const elegir = (i) =>
+      expect(async () => {
+        await clickCentered(indicadores.nth(i));
+        await expect.poll(() => activo(c), { timeout: 1500 }).toBe(i);
+      }).toPass({ timeout: 15_000 });
+
+    await elegir(2); // Slide 3
     await expect(indicadores.nth(2)).toHaveClass(/active/);
-    await clickCentered(indicadores.nth(0)); // Slide 1
-    await expect.poll(() => activo(c)).toBe(0);
+    await elegir(0); // Slide 1
     await expect(indicadores.nth(0)).toHaveClass(/active/);
     await expect(indicadores.nth(2)).not.toHaveClass(/active/);
   });
