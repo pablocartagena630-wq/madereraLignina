@@ -1,11 +1,11 @@
 # Pruebas automatizadas · madereraLignina (Jira MLIG)
 
-Suite de **Playwright** que automatiza el plan de pruebas de US-01 a US-15
+Suite de **Playwright** que automatiza el plan de pruebas de US-01 a US-20: los 61 casos
 (un `test` por caso `CP-xx.y`, con el mismo ID que en Jira).
 
 ## Puesta en marcha
 
-Copia esta carpeta `e2e/` dentro del repositorio del sitio (junto a `index.html`) y, desde ella:
+Desde esta carpeta `e2e/`:
 
 ```bash
 npm install
@@ -27,7 +27,7 @@ Para probar el sitio ya publicado: `BASE_URL=https://usuario.github.io/madereraL
 
 ## Cómo se tratan los bugs conocidos
 
-Los casos que fallaron en la ejecución manual (MLIG-103 … MLIG-124) llevan `knownBug('MLIG-xxx')`:
+Los casos que fallaron en la ejecución manual (MLIG-103 … MLIG-128) llevan `knownBug('MLIG-xxx')`:
 
 | Situación | Resultado en la suite |
 |---|---|
@@ -50,6 +50,8 @@ documentarlos o adjuntar evidencia en Jira). Las capturas y trazas quedan en `te
 | `tests/us08-09-cuenta.spec.js` | US-08, US-09 |
 | `tests/us10-13-contenido.spec.js` | US-10, US-11, US-12, US-13 |
 | `tests/us14-15-calidad.spec.js` | US-14 (375 px), US-15 (accesibilidad) |
+| `tests/us16-18-interfaz.spec.js` | US-16 (carruseles), US-17 (imágenes ampliadas), US-18 (volver arriba) |
+| `tests/us19-20-sesion-pestana.spec.js` | US-19 (Recordarme), US-20 (pestaña del navegador) |
 | `tests/helpers.js` | fixture de red aislada, `knownBug`, utilidades |
 
 ## Notas
@@ -58,5 +60,5 @@ documentarlos o adjuntar evidencia en Jira). Las capturas y trazas quedan en `te
   animaciones CSS para que sean rápidas y repetibles.
 - CP-10.1 (video H.264/AAC): el Chromium de Playwright puede no traer el códec; en ese caso el test se
   **omite** con un aviso. Para ejecutarlo con Chrome real, usa `channel: 'chrome'` en el proyecto.
-- CP-13.3 (mapa) solo valida el `iframe` de Google Maps por código; la confirmación visual sigue siendo manual.
+- CP-13.3 (mapa) solo valida el `iframe` de Google Maps por código; la confirmación visual se hizo a mano (carga, marca la tienda y permite ampliar) y la captura está en Jira (MLIG-71).
 - El plan lista 3 "Ventas antiguas", pero el sitio tiene 4 (Mesada de Fresno); se prueban las 4.
