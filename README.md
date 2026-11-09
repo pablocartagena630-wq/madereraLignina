@@ -1,8 +1,8 @@
-🪵 madereraLignina
+madereraLignina
 
 E-commerce dedicado a la venta de productos de madera de elaboración propia. E-commerce dedicated to the sale of handmade wood products.
 
-Sitio web estático (HTML, Bootstrap 5.1.1 y SCSS) con una suite de pruebas automatizadas de extremo a extremo (Playwright) que cubre las historias de usuario US-01 a US-15 del proyecto Jira MLIG.
+Sitio web estático (HTML, Bootstrap 5.1.1 y SCSS) con una suite de pruebas automatizadas de extremo a extremo (Playwright) que cubre las historias de usuario US-01 a US-20 (los 61 casos de prueba) del proyecto Jira MLIG.
 
 Qué puedes hacer en el sitio
 Navegar entre las secciones y ir a una categoría desde el inicio.
@@ -53,4 +53,4 @@ npx playwright install chromium firefox   # solo la primera vez
 npm test                                   # Chrome + Firefox
 npm run report                             # abre el reporte HTML
 
-Los casos que corresponden a bugs conocidos (MLIG-103 a MLIG-124) están marcados con knownBug y fallan a propósito mientras el bug exista. Más detalles en madereraLignina-main/e2e/README.md.
+Los casos que corresponden a bugs conocidos (MLIG-103 a MLIG-128) están marcados con knownBug y fallan a propósito mientras el bug exista. Más detalles en madereraLignina-main/e2e/README.md.
