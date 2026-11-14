@@ -1,5 +1,7 @@
 # madereraLignina
 
+JIRA: https://amigo-team-dauluhlg.atlassian.net/jira/software/projects/MLIG/list?jql=project+%3D+MLIG+ORDER+BY+cf%5B10019%5D+ASC&atlOrigin=eyJpIjoiMDk2ZWUxNTQ3Y2JmNDRmYjkzNzVkN2Y0ZTY3NzgyZmMiLCJwIjoiaiJ9
+
 E-commerce dedicado a la venta de productos de madera de elaboración propia.
 
 Sitio web estático (HTML, Bootstrap 5.1.1 y SCSS) con una suite de pruebas automatizadas de extremo a extremo (Playwright) que cubre las historias de usuario US-01 a US-20 (los 61 casos de prueba) del proyecto Jira **MLIG**.
