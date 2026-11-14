@@ -54,3 +54,13 @@ npm test                                   # Chrome + Firefox
 npm run report                             # abre el reporte HTML
 
 Los casos que corresponden a bugs conocidos (MLIG-103 a MLIG-128) están marcados con knownBug y fallan a propósito mientras el bug exista. Más detalles en madereraLignina-main/e2e/README.md.
+
+## Entregables
+
+| Entregable | Dónde está |
+|---|---|
+| Plan de pruebas corregido | [PLAN-DE-PRUEBAS.md](PLAN-DE-PRUEBAS.md) (copia del plan en Jira, proyecto MLIG) |
+| Tabla de cambios del plan | [CAMBIOS-PLAN.md](CAMBIOS-PLAN.md) |
+| Matriz de trazabilidad | [MATRIZ-TRAZABILIDAD.md](MATRIZ-TRAZABILIDAD.md) |
+| Reporte de ejecución y video | carpeta `reporte-ejecucion/` |
+| Reporte de defectos | Jira, proyecto MLIG: bugs MLIG-103 a MLIG-128, cada uno con pasos, resultado esperado y obtenido, captura y enlace a su historia |
